@@ -1,36 +1,22 @@
 import {
-	Image
-} from 'expo-image';
-import {
 	Platform,
 	View,
-	StyleSheet,
+	Text,
 	TextInput
 } from 'react-native';
-
 import {
-	HelloWave
-} from '@/components/hello-wave';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import {
-	ThemedText
-} from '@/components/themed-text';
-import {
-	ThemedView
-} from '@/components/themed-view';
-import {
-	Link
-} from 'expo-router';
+	SafeAreaProvider
+} from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   return (
-		<ThemedView>
+		<SafeAreaProvider>
 			<View>
-				<ThemedText>sysx</ThemedText>
+				<Text>sysx</Text>
 			</View>
 			<View>
 				<TextInput placeholder="Description" />
 			</View>
-		</ThemedView>
+		</SafeAreaProvider>
   );
 }
