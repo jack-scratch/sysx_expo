@@ -2,7 +2,8 @@ import {
 	View,
 	Text,
 	TextInput,
-	Button
+	Button,
+	StyleSheet
 } from 'react-native';
 import {
 	SafeAreaProvider,
@@ -13,10 +14,10 @@ export default function HomeScreen() {
   return (
 		<SafeAreaProvider>
 			<SafeAreaView>
-				<View>
+				<View style={styles.cont}>
 					<Text>sysx</Text>
 				</View>
-				<View>
+				<View style={styles.cont}>
 					<TextInput placeholder="Description" />
 					<TextInput placeholder="Domain" />
 					<TextInput placeholder="System" />
@@ -28,3 +29,9 @@ export default function HomeScreen() {
 		</SafeAreaProvider>
   );
 }
+
+const styles = StyleSheet.create({
+	cont: {
+		margin: 8
+	}
+});
