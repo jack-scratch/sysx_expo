@@ -19,6 +19,8 @@ export default function HomeScreen() {
 				</View>
 				<View>
 					<TextInput placeholder="Description" />
+					<TextInput placeholder="Domain" />
+					<TextInput placeholder="System" />
 					<Button title="insert" onClick={() => alert("asdf")}>
 						<Text>asdf</Text>
 					</Button>
