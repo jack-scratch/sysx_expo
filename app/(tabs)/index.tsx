@@ -2,7 +2,8 @@ import {
 	Platform,
 	View,
 	Text,
-	TextInput
+	TextInput,
+	Button
 } from 'react-native';
 import {
 	SafeAreaProvider
@@ -16,6 +17,9 @@ export default function HomeScreen() {
 			</View>
 			<View>
 				<TextInput placeholder="Description" />
+				<Button title="insert" onClick={() => alert("asdf")}>
+					<Text>asdf</Text>
+				</Button>
 			</View>
 		</SafeAreaProvider>
   );
