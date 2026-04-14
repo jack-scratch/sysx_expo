@@ -3,6 +3,7 @@ import {
 } from 'expo-image';
 import {
 	Platform,
+	View,
 	StyleSheet,
 	TextInput
 } from 'react-native';
@@ -24,8 +25,12 @@ import {
 export default function HomeScreen() {
   return (
 		<ThemedView>
-			<ThemedText>sysx</ThemedText>
-			<TextInput placeholder="Description" />
+			<View>
+				<ThemedText>sysx</ThemedText>
+			</View>
+			<View>
+				<TextInput placeholder="Description" />
+			</View>
 		</ThemedView>
   );
 }
