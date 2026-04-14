@@ -3,7 +3,8 @@ import {
 } from 'expo-image';
 import {
 	Platform,
-	StyleSheet
+	StyleSheet,
+	TextInput
 } from 'react-native';
 
 import {
@@ -22,8 +23,9 @@ import {
 
 export default function HomeScreen() {
   return (
-		<ThemedView style={styles.stepContainer}>
+		<ThemedView>
 			<ThemedText>sysx</ThemedText>
+			<TextInput placeholder="Description" />
 		</ThemedView>
   );
 }
