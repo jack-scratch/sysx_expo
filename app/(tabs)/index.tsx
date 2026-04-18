@@ -31,10 +31,16 @@ export default function HomeScreen() {
 				<View style={styles.cont}>
 					<Text>YouTube</Text>
 					<TextInput placeholder="Query" />
+					<Button title="search" onClick={() => alert("asdf")}>
+						<Text>asdf</Text>
+					</Button>
 				</View>
 				<View style={styles.cont}>
 					<Text>Google</Text>
 					<TextInput placeholder="Query" />
+					<Button title="search" onClick={() => alert("asdf")}>
+						<Text>asdf</Text>
+					</Button>
 				</View>
 			</SafeAreaView>
 		</SafeAreaProvider>
