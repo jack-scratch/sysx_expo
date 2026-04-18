@@ -18,6 +18,9 @@ export default function HomeScreen() {
 					<Text>sysx</Text>
 				</View>
 				<View style={styles.cont}>
+					<Text>s</Text>
+				</View>
+				<View style={styles.cont}>
 					<TextInput placeholder="Description" />
 					<TextInput placeholder="Domain" />
 					<TextInput placeholder="System" />
