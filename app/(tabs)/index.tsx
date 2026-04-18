@@ -28,6 +28,10 @@ export default function HomeScreen() {
 						<Text>asdf</Text>
 					</Button>
 				</View>
+				<View style={styles.cont}>
+					<Text>YouTube</Text>
+					<TextInput placeholder="Query" />
+				</View>
 			</SafeAreaView>
 		</SafeAreaProvider>
   );
