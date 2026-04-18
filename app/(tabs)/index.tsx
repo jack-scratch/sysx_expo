@@ -15,7 +15,9 @@ export default function HomeScreen() {
 		<SafeAreaProvider>
 			<SafeAreaView>
 				<View style={style.cont}>
-					<Text>sysx</Text>
+				<Text style={{
+					fontSize: 35
+				}}>sysx</Text>
 				</View>
 				<View style={style.cont}>
 					<View style={style.cont}>
