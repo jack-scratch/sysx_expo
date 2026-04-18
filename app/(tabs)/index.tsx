@@ -18,43 +18,45 @@ export default function HomeScreen() {
 					<Text>sysx</Text>
 				</View>
 				<View style={styles.cont}>
-					<Text>s</Text>
-				</View>
-				<View style={styles.cont}>
-					<TextInput placeholder="Description" />
-					<TextInput placeholder="Domain" />
-					<TextInput placeholder="System" />
-					<Button title="insert" onClick={() => alert("asdf")}>
-						<Text>asdf</Text>
-					</Button>
-				</View>
-				<View style={styles.cont}>
-					<Text>YouTube</Text>
-					<TextInput placeholder="Query" />
-					<Button title="search" onClick={() => alert("asdf")}>
-						<Text>asdf</Text>
-					</Button>
-				</View>
-				<View style={styles.cont}>
-					<Text>Google</Text>
-					<TextInput placeholder="Query" />
-					<Button title="search" onClick={() => alert("asdf")}>
-						<Text>asdf</Text>
-					</Button>
-				</View>
-				<View style={styles.cont}>
-					<Text>Amazon</Text>
-					<TextInput placeholder="Query" />
-					<Button title="search" onClick={() => alert("asdf")}>
-						<Text>asdf</Text>
-					</Button>
-				</View>
-				<View style={styles.cont}>
-					<Text>Stack Exchange</Text>
-					<TextInput placeholder="Query" />
-					<Button title="search" onClick={() => alert("asdf")}>
-						<Text>asdf</Text>
-					</Button>
+					<View style={styles.cont}>
+						<Text>s</Text>
+					</View>
+					<View style={styles.cont}>
+						<TextInput placeholder="Description" />
+						<TextInput placeholder="Domain" />
+						<TextInput placeholder="System" />
+						<Button title="insert" onClick={() => alert("asdf")}>
+							<Text>asdf</Text>
+						</Button>
+					</View>
+					<View style={styles.cont}>
+						<Text>YouTube</Text>
+						<TextInput placeholder="Query" />
+						<Button title="search" onClick={() => alert("asdf")}>
+							<Text>asdf</Text>
+						</Button>
+					</View>
+					<View style={styles.cont}>
+						<Text>Google</Text>
+						<TextInput placeholder="Query" />
+						<Button title="search" onClick={() => alert("asdf")}>
+							<Text>asdf</Text>
+						</Button>
+					</View>
+					<View style={styles.cont}>
+						<Text>Amazon</Text>
+						<TextInput placeholder="Query" />
+						<Button title="search" onClick={() => alert("asdf")}>
+							<Text>asdf</Text>
+						</Button>
+					</View>
+					<View style={styles.cont}>
+						<Text>Stack Exchange</Text>
+						<TextInput placeholder="Query" />
+						<Button title="search" onClick={() => alert("asdf")}>
+							<Text>asdf</Text>
+						</Button>
+					</View>
 				</View>
 			</SafeAreaView>
 		</SafeAreaProvider>
