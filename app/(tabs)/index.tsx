@@ -14,14 +14,14 @@ export default function HomeScreen() {
   return (
 		<SafeAreaProvider>
 			<SafeAreaView>
-				<View style={styles.cont}>
+				<View style={style.cont}>
 					<Text>sysx</Text>
 				</View>
-				<View style={styles.cont}>
-					<View style={styles.cont}>
-						<Text style={styles.hdr}>s</Text>
+				<View style={style.cont}>
+					<View style={style.cont}>
+						<Text style={style.hdr}>s</Text>
 					</View>
-					<View style={styles.cont}>
+					<View style={style.cont}>
 						<TextInput placeholder="Description" />
 						<TextInput placeholder="Domain" />
 						<TextInput placeholder="System" />
@@ -29,29 +29,29 @@ export default function HomeScreen() {
 							<Text>asdf</Text>
 						</Button>
 					</View>
-					<View style={styles.cont}>
-						<Text style={styles.hdr}>YouTube</Text>
+					<View style={style.cont}>
+						<Text style={style.hdr}>YouTube</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
 						</Button>
 					</View>
-					<View style={styles.cont}>
-						<Text style={styles.hdr}>Google</Text>
+					<View style={style.cont}>
+						<Text style={style.hdr}>Google</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
 						</Button>
 					</View>
-					<View style={styles.cont}>
-						<Text style={styles.hdr}>Amazon</Text>
+					<View style={style.cont}>
+						<Text style={style.hdr}>Amazon</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
 						</Button>
 					</View>
-					<View style={styles.cont}>
-						<Text style={styles.hdr}>Stack Exchange</Text>
+					<View style={style.cont}>
+						<Text style={style.hdr}>Stack Exchange</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
@@ -63,7 +63,7 @@ export default function HomeScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
 	cont: {
 		margin: 8
 	},
