@@ -19,7 +19,7 @@ export default function HomeScreen() {
 				</View>
 				<View style={styles.cont}>
 					<View style={styles.cont}>
-						<Text>s</Text>
+						<Text style={styles.hdr}>s</Text>
 					</View>
 					<View style={styles.cont}>
 						<TextInput placeholder="Description" />
@@ -30,28 +30,28 @@ export default function HomeScreen() {
 						</Button>
 					</View>
 					<View style={styles.cont}>
-						<Text>YouTube</Text>
+						<Text style={styles.hdr}>YouTube</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
 						</Button>
 					</View>
 					<View style={styles.cont}>
-						<Text>Google</Text>
+						<Text style={styles.hdr}>Google</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
 						</Button>
 					</View>
 					<View style={styles.cont}>
-						<Text>Amazon</Text>
+						<Text style={styles.hdr}>Amazon</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
 						</Button>
 					</View>
 					<View style={styles.cont}>
-						<Text>Stack Exchange</Text>
+						<Text style={styles.hdr}>Stack Exchange</Text>
 						<TextInput placeholder="Query" />
 						<Button title="search" onClick={() => alert("asdf")}>
 							<Text>asdf</Text>
@@ -66,5 +66,8 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
 	cont: {
 		margin: 8
+	},
+	hdr: {
+		fontSize: 22
 	}
 });
