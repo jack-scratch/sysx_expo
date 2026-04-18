@@ -42,6 +42,13 @@ export default function HomeScreen() {
 						<Text>asdf</Text>
 					</Button>
 				</View>
+				<View style={styles.cont}>
+					<Text>Amazon</Text>
+					<TextInput placeholder="Query" />
+					<Button title="search" onClick={() => alert("asdf")}>
+						<Text>asdf</Text>
+					</Button>
+				</View>
 			</SafeAreaView>
 		</SafeAreaProvider>
   );
