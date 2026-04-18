@@ -32,6 +32,10 @@ export default function HomeScreen() {
 					<Text>YouTube</Text>
 					<TextInput placeholder="Query" />
 				</View>
+				<View style={styles.cont}>
+					<Text>Google</Text>
+					<TextInput placeholder="Query" />
+				</View>
 			</SafeAreaView>
 		</SafeAreaProvider>
   );
