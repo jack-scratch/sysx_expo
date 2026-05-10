@@ -9,6 +9,31 @@ import {
 	SafeAreaProvider,
 	SafeAreaView
 } from 'react-native-safe-area-context';
+import mongoose from 'mongoose';
+
+const schema = new mongoose.Schema({
+  desc: {
+		type: String,
+		required: true
+  },
+	dmn: {
+		type: String
+	},
+  sys: {
+		type: String
+	},
+	reason: {
+		type: String
+	},
+	note: {
+		type: String
+	},
+	ts: {
+		type: String
+	}
+});
+
+const S = mongoose.model('S', schema);
 
 export default function HomeScreen() {
   return (
